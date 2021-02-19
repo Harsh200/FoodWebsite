@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>OUR AWESOME WEBSITE</title>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet"href="./css/style.css">
+
+</head>
+<body>
+
+<header class="topbar">
+    <div class="container" style="display: flex; justify-content: space-between; align-items: center">
+        <div class="icons" style="margin-right: 0.6rem">
+            <a href="#" style="margin-right: 0.35rem"><img src="./icons/facebook.svg" alt=""></a>
+            <a href="#"  style="margin-right: 0.35rem"><img src="./icons/twitter.svg" alt=""></a>
+            <a href="#"  style="margin-right: 0.35rem"><img src="./icons/google.svg" alt=""></a>
+            <a href="#"  style="margin-right: 0.35rem"><img src="./icons/instagram.svg" alt=""></a>
+            <a href="#"  style="margin-right: 0.35rem"><img src="./icons/search.svg" alt=""></a>
+        </div>
+
+        <div class="auth flex items-center">
+            <div>
+                <img src="./icons/user-icon.svg" alt="">
+                <a href="#" style="color: white; text-decoration: none" >Log in </a>
+            </div>
+            <span class="divider" style="padding: 0 1rem">|</span>
+            <div>
+                <img src="./icons/edit.svg" alt="">
+                <a href="#" style="color: white; text-decoration: none"  >Register Now </a>
+            </div>
+            <span class="divider"  style="padding: 0 1rem">|</span>
+            <div>
+                <img src="./icons/cart.svg" alt="">
+                <a href="#" style="color: white; text-decoration: none"  >0 Items - ($0.00)</a>
+            </div>
+
+        </div>
+    </div>
+</header>
+<nav>
+<div class="top">
+    <div class="container flex justify-between">
+        <div class="contact flex items-center">
+        <img src="./icons/phone.svg"alt="">
+            <div>
+                <h5 style="font-family: Raleway-black; margin-bottom: 0.25rem"> Call US: (+91) 7302182501 </h5>
+                <h6 style="font-family: Raleway-medium"> E-mail: support@harsh.com</h6>
+            </div>
+        </div>
+        <div class="branding">
+        <img src="./icons/logo.svg" alt="">
+        </div>
+        <div class="time flex items-center">
+        <img src="./icons/clock.svg"alt="">
+        <div>
+            <h5 style="font-family: Raleway-black; margin-bottom: 0.25rem"> Working Hours:  </h5>
+            <h6 style="font-family: Raleway-medium; font-size: 0.75rem; color:var(--ternary)"> Mon - Sat (8:00 am - 12.00 am)</h6>
+        </div>
+    </div>
+</div>
+</div>
+
+    <div class="navbar magicshadow">
+        <div class="container flex justify-center">
+            <a href="#" style="text-decoration: none;color: var(--secondary);font-family: Raleway-semibold;font-size: 1rem;
+padding:1rem 1.5rem; background: var(--primary); color: var(--pure); ">Home</a>
+            <a href="#"  style="text-decoration: none;color: var(--secondary);font-family: Raleway-semibold;font-size: 1rem;
+padding:1rem 1.5rem">About</a>
+
+            <a href="#" style="text-decoration: none;color: var(--secondary);font-family: Raleway-semibold;font-size: 1rem;
+padding:1rem 1.5rem ">Products</a>
+            <a href="#" style="text-decoration: none;color: var(--secondary);font-family: Raleway-semibold;font-size: 1rem;
+padding:1rem 1.5rem ">Blogs</a>
+            <a href="#" style="text-decoration: none;color: var(--secondary);font-family: Raleway-semibold;font-size: 1rem;
+padding:1rem 1.5rem ">Shop</a>
+            <a href="#" style="text-decoration: none;color: var(--secondary);font-family: Raleway-semibold;font-size: 1rem;
+padding:1rem 1.5rem ">Services</a>
+            <a href="#" style="text-decoration: none;color: var(--secondary);font-family: Raleway-semibold;font-size: 1rem;
+padding:1rem 1.5rem ">Gallery</a>
+            <a href="#" style="text-decoration: none;color: var(--secondary);font-family: Raleway-semibold;font-size: 1rem;
+padding:1rem 1.5rem ">Contact Us</a>
+        </div>
+    </div>
+</nav>
+<header class="hero flex items-center">
+    <div class="container" style="position: relative">
+        <div class="welcome flex items-center" style="font-family: Raleway-bold; color: var(--secondary);
+margin-right: 0.75rem; margin-bottom: 0.25rem">
+        <span style="font-family: Raleway-bold; color: var(--secondary);
+margin-right: 0.75rem">Welcome to </span>
+        <img src="./icons/logo-2.svg " alt="">
+    </div>
+        <h1 style="font-family: Raleway-extrabold;color: var(--secondary);font-size: 2.5rem;margin-bottom: 0.25rem">The World Best <span style="color: var(--primary)"> Shopping</span> Website</h1>
+        <p style="font-family: Raleway-medium; width: 50%; line-height: 1.5; margin-bottom: 1rem">The world most demanding food are available here. Please visit us one. you can find any item of yout choice</p>
+    <div>
+        <button class="btn btn-primary">Read More</button>
+        <button class="btn btn-secondary"> Shop Now</button>
+    </div>
+        <div class="hero-image" style="position: absolute; top: -40px; right: 40px">
+            <img src="./images/straw.png">
+        </div>
+    </div>
+
+</header>
+<section class="top-products">
+    <div class="container">
+        <h1 class="section-heading">Top products</h1>
+        <div class="slider" style="position: relative">
+            <button class="slider-btn prev-btn" style="width: 30px;
+    height: 30px;
+    border: none;
+    background: var(--primary);
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    position: absolute;
+    top:46%;
+    left: -3rem;
+    z-index: 1">
+                <img src="./icons/pre.svg" alt="">
+            </button>
+            <button class="slider-btn next-btn"  style="width: 30px;
+    height: 30px;
+    border: none;
+    background: var(--primary);
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    position: absolute;
+    top:46%;
+    right: -3rem;
+    z-index: 1">
+                <img src="./icons/next.svg" alt="">
+            </button>
+            <div class="food-slider">
+                <div class="food-card magicshadow-sm" style="background: var(--heaven);padding: 1.5rem 0;border-radius: 4px">
+                    <div class="product-image flex items-center justify-center">
+                        <img src="./images/plate-1.png" alt="" style="width: 80%;height: 200px;object-fit:contain;padding-bottom: 1rem">
+                    </div>
+                    <hr>
+                    <div>
+                        <h2 class="text-center" style="font-family: Raleway-bold;font-size: 1.3rem;margin-bottom: 0.25rem">Summer Salad</h2>
+                        <div class="stars flex justify-center items-center" style="margin-bottom: 0.5rem" >
+                            <img src="./icons/start-filled.svg" alt="" style="margin-right: 0.25rem">
+                            <img src="./icons/start-filled.svg" alt="" style="margin-right: 0.25rem">
+                            <img src="./icons/start-filled.svg" alt="" style="margin-right: 0.25rem">
+                            <img src="./icons/star-grey.svg" alt="" style="margin-right: 0.25rem">
+                            <img src="./icons/star-grey.svg" alt="" style="margin-right: 0.25rem">
+                        </div>
+                        <div class="price text-center" style="font-family: Raleway-medium; color: var(--danger);
+                            margin-bottom: 1rem">
+                            $ 1.25
+                        </div>
+                        <div class="flex justify-center">
+                            <button style="font-family: Raleway-medium; color: var(--secondary);background: var(--heaven);
+                                border: 2px solid var(--primary); border-radius: 4px; display: flex; align-items: center;
+                width: 50%; font-size: 1rem; cursor: pointer;transition: all .3s ease">
+                                <img src="./icons/cart-2.svg" alt="" style="background: var(--primary); padding: 0.50rem;
+                                    height: 32px; margin-right: 1.2rem">
+                                <span>Add to cart</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="food-card magicshadow-sm" style="background: var(--heaven);padding: 1.5rem 0;border-radius: 4px">
+                    <div class="product-image flex items-center justify-center">
+                        <img src="./images/plate-2.png" alt="" style="width: 80%;height: 200px;object-fit:contain;padding-bottom: 1rem">
+                    </div>
+                    <hr>
+                    <div>
+                        <h2 class="text-center" style="font-family: Raleway-bold;font-size: 1.3rem;margin-bottom: 0.25rem">Russian Salad</h2>
+                        <div class="stars flex justify-center items-center" style="margin-bottom: 0.5rem" >
+                            <img src="./icons/start-filled.svg" alt="" style="margin-right: 0.25rem">
+                            <img src="./icons/start-filled.svg" alt="" style="margin-right: 0.25rem">
+                            <img src="./icons/start-filled.svg" alt="" style="margin-right: 0.25rem">
+                            <img src="./icons/star-grey.svg" alt="" style="margin-right: 0.25rem">
+                            <img src="./icons/star-grey.svg" alt="" style="margin-right: 0.25rem">
+                        </div>
+                        <div class="price text-center" style="font-family: Raleway-medium; color: var(--danger);
+                            margin-bottom: 1rem">
+                            $ 1.25
+                        </div>
+                        <div class="flex justify-center">
+                            <button style="font-family: Raleway-medium; color: var(--secondary);background: var(--heaven);
+                                border: 2px solid var(--primary); border-radius: 4px; display: flex; align-items: center;
+                width: 50%; font-size: 1rem; cursor: pointer;transition: all .3s ease">
+                                <img src="./icons/cart-2.svg" alt="" style="background: var(--primary); padding: 0.50rem;
+                                    height: 32px; margin-right: 1.2rem">
+                                <span>Add to cart</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="food-card magicshadow-sm" style="background: var(--heaven);padding: 1.5rem 0;border-radius: 4px">
+                    <div class="product-image flex items-center justify-center">
+                        <img src="./images/plate-3.png" alt="" style="width: 80%;height: 200px;object-fit:contain;padding-bottom: 1rem">
+                    </div>
+                    <hr>
+                    <div>
+                        <h2 class="text-center" style="font-family: Raleway-bold;font-size: 1.3rem;margin-bottom: 0.25rem">Greek Salad</h2>
+                        <div class="stars flex justify-center items-center" style="margin-bottom: 0.5rem" >
+                            <img src="./icons/start-filled.svg" alt="" style="margin-right: 0.25rem">
+                            <img src="./icons/start-filled.svg" alt="" style="margin-right: 0.25rem">
+                            <img src="./icons/start-filled.svg" alt="" style="margin-right: 0.25rem">
+                            <img src="./icons/star-grey.svg" alt="" style="margin-right: 0.25rem">
+                            <img src="./icons/star-grey.svg" alt="" style="margin-right: 0.25rem">
+                        </div>
+                        <div class="price text-center" style="font-family: Raleway-medium; color: var(--danger);
+                            margin-bottom: 1rem">
+                            $ 1.25
+                        </div>
+                        <div class="flex justify-center">
+                            <button style="font-family: Raleway-medium; color: var(--secondary);background: var(--heaven);
+                                border: 2px solid var(--primary); border-radius: 4px; display: flex; align-items: center;
+                width: 50%; font-size: 1rem; cursor: pointer;transition: all .3s ease">
+                                <img src="./icons/cart-2.svg" alt="" style="background: var(--primary); padding: 0.50rem;
+                                    height: 32px; margin-right: 1.2rem">
+                                <span>Add to cart</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="food-card magicshadow-sm" style="background: var(--heaven);padding: 1.5rem 0;border-radius: 4px">
+                    <div class="product-image flex items-center justify-center">
+                        <img src="./images/plate-4.jpg" alt="" style="width: 80%;height: 200px;object-fit:contain;padding-bottom: 1rem">
+                    </div>
+                    <hr>
+                    <div>
+                        <h2 class="text-center" style="font-family: Raleway-bold;font-size: 1.3rem;margin-bottom: 0.25rem"> Cottage Pie</h2>
+                        <div class="stars flex justify-center items-center" style="margin-bottom: 0.5rem" >
+                            <img src="./icons/start-filled.svg" alt="" style="margin-right: 0.25rem">
+                            <img src="./icons/start-filled.svg" alt="" style="margin-right: 0.25rem">
+                            <img src="./icons/start-filled.svg" alt="" style="margin-right: 0.25rem">
+                            <img src="./icons/star-grey.svg" alt="" style="margin-right: 0.25rem">
+                            <img src="./icons/star-grey.svg" alt="" style="margin-right: 0.25rem">
+                        </div>
+                        <div class="price text-center" style="font-family: Raleway-medium; color: var(--danger);
+                            margin-bottom: 1rem">
+                            $ 1.25
+                        </div>
+                        <div class="flex justify-center">
+                            <button style="font-family: Raleway-medium; color: var(--secondary);background: var(--heaven);
+                                border: 2px solid var(--primary); border-radius: 4px; display: flex; align-items: center;
+                width: 50%; font-size: 1rem; cursor: pointer;transition: all .3s ease">
+                                <img src="./icons/cart-2.svg" alt="" style="background: var(--primary); padding: 0.50rem;
+                                    height: 32px; margin-right: 1.2rem">
+                                <span>Add to cart</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center btn-wrapper" style="margin-top: 2rem">
+            <button class="btn btn-secondary">View More</button>
+        </div>
+    </div>
+</section>
+
+
+
+
+<section class="about-meal">
+    <div class="container">
+        <h1 class="section-heading">About Fresh Meal</h1>
+        <div class="about-meal-wrap flex">
+            <div class="flex-1">
+                <img src="./images/yogurt.png" alt="" style="width: 85%">
+            </div>
+            <div class="flex-1">
+                <h2 style="font-family: Raleway-bold;font-size: 1.4rem;color: var(--secondary);margin-bottom: 2rem;
+line-height: 1.3">Freshmeal is a long established fact that a reader will be distracted</h2>
+                <p style="line-height: 1.7;margin-bottom: 4rem">Welcome to Fresh Meal Plan, LLC (together with its affiliates,
+                    "Fresh Meal Plan", "We", "Us", or the "Company"). We are excited to have you as a
+                    user and as a customer. We’d like you to know that the following terms and conditions
+                    of use (collectively, these "Terms of Use") apply to your use of FreshMealPlan.com (the "Site"),
+                    including all related web sites, social media sites and applications, downloadable software,
+                    mobile applications (including tablet applications), the meals we prepare and our delivery of
+                    these meals to you, and other services provided by us, or any digital media on which a link
+                    to this Terms of Use is displayed, and all other communications with individuals though written
+                    or oral means (such as email or phone) directed at accessing or using any service we offer
+                    (together with the Site, the "Service").
+                    </p>
+                <button class="btn btn-secondary">Read More</button>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section class="our-service" style="background: var(--light);position: relative; z-index: 0">
+    <div class="container">
+        <h1 class="section-heading"> Our Services</h1>
+        <div class="card-wrapper flex" style="margin-right: -2rem;margin-top: 8rem">
+            <div class="service-card magicshadow-sm" style="background: var(--heaven);text-align: center;padding: 2rem;position: relative;padding-top: 4rem;
+border-radius: 4px; margin-right: 2rem">
+                <img class="icon" src="./icons/transport.svg" alt="" style="position: absolute;top: -40px;left: 50%;transform: translate(-50%)">
+                <h2 style="font-family: Raleway-bold;font-size: 1.3rem;margin-bottom: 1rem">Free Home delivery</h2>
+                <p style="line-height: 1.6;margin-bottom: 1rem">Find free home delivery here with the thirty minutes time period. We have Awesome service</p>
+                <button class="btn btn-secondary">Read More</button>
+            </div>
+
+            <div class="service-card magicshadow-sm" style="background: var(--heaven);text-align: center;padding: 2rem;position: relative;padding-top: 4rem;
+border-radius: 4px">
+                <img class="icon" src="./icons/bag.svg" alt="" style="position: absolute;top: -40px;left: 50%;transform: translate(-50%)">
+                <h2 class="text-primary" style="font-family: Raleway-bold;font-size: 1.3rem;margin-bottom: 1rem">30 Days Return Services</h2>
+                <p style="line-height: 1.6;margin-bottom: 1rem">Find free home delivery here with the thirty minutes time period. We have Awesome service</p>
+                <button class="btn btn-primary">Read More</button>
+            </div>
+
+            <div class="service-card magicshadow-sm" style="background: var(--heaven);text-align: center;padding: 2rem;position: relative;padding-top: 4rem;
+border-radius: 4px">
+                <img class="icon" src="./icons/usd.svg" alt="" style="position: absolute;top: -40px;left: 50%;transform: translate(-50%)">
+                <h2 style="font-family: Raleway-bold;font-size: 1.3rem;margin-bottom: 1rem">Money Back Guananted</h2>
+                <p style="line-height: 1.6;margin-bottom: 1rem">Find free home delivery here with the thirty minutes time period. We have Awesome service</p>
+                <button class="btn btn-secondary">Read More</button>
+            </div>
+
+
+        </div>
+    </div>
+</section>
+
+
+<section class="big-deal" style="background: linear-gradient(rgba(35,43,56,0.9),rgba(35,43,56,0.9)),url(./images/food-table.jpg);
+background-size: cover;background-repeat: no-repeat;background-position: center; background-attachment: fixed">
+    <div class="container">
+        <h1 class="section-heading text-pure">Big Deals of the Week</h1>
+    <div class="timer" style="display: flex;align-items: center;
+    margin-bottom:2rem;justify-content: center;margin-right: -2rem">
+        <div style="margin-right: 2rem; background: var(--primary);width: 150px;height: 150px;border-radius: 4px;
+         display: flex; flex-direction: column;align-items: center;justify-content: center">
+            <span style="font-family: Raleway-semibold;font-size: 2.5rem;color:var(--heaven);
+            margin-bottom: 0.05rem">02</span>
+            <span style="font-family: Raleway-medium;color: var(--heaven)">Days</span>
+        </div>
+        <div style="margin-right: 2rem; background: var(--primary);width: 150px;height: 150px;border-radius: 4px;
+display: flex; flex-direction: column;align-items: center;justify-content: center">
+            <span style="font-family: Raleway-semibold;font-size: 2.5rem;color:var(--heaven);
+            margin-bottom: 0.05rem">24</span>
+            <span style="font-family: Raleway-medium;color: var(--heaven)">Hours</span>
+        </div>
+        <div style="margin-right: 2rem; background: var(--primary);width: 150px;height: 150px;border-radius: 4px;
+display: flex; flex-direction: column;align-items: center;justify-content: center">
+            <span style="font-family: Raleway-semibold;font-size: 2.5rem;color:var(--heaven);
+            margin-bottom: 0.05rem">55</span>
+            <span style="font-family: Raleway-medium;color: var(--heaven)">Minutes</span>
+        </div>
+        <div style="margin-right: 2rem; background: var(--primary);width: 150px;height: 150px;border-radius: 4px;
+display: flex; flex-direction: column;align-items: center;justify-content: center">
+            <span style="font-family: Raleway-semibold;font-size: 2.5rem;color:var(--heaven);
+            margin-bottom: 0.05rem"> 58</span>
+            <span style="font-family: Raleway-medium;color: var(--heaven)">Second</span>
+        </div>
+    </div>
+    </div>
+
+</section>
+
+<section class="latest-news" style="background: var(--light); position: relative;z-index: 0">
+    <div class="container">
+        <h1 class="section-heading">Latest News from Blog</h1>
+        <div class="article-wrapper" style="display: flex;margin-right: -2rem">
+            <article class="card magicshadow-sm" style="margin-right: 2rem; background: var(--heaven);
+            border-radius: 4px">
+                <div>
+                    <img src="./images/donut.jpg"alt="" style="width: 100%">
+                </div>
+                <div class="card-content" style="padding: 2rem">
+                    <div class="post-meta flex items-center justify-between" style="margin-bottom: 1rem">
+                        <span>19-02-2021</span>
+                        <div>
+                            <span>
+                                Posted By <strong>FreshMeal</strong>
+                            </span>
+                            <span style="margin-left: 1rem">12 Comments</span>
+                        </div>
+                    </div>
+                <h2 style="font-family: Raleway-bold;font-size: 1.3rem;margin-bottom: 1rem">Fresh Foods are now available Everyday</h2>
+                    <p style="line-height: 1.6rem"> Welcome to Fresh Meal Plan,
+                    LLC (together with its affiliates,
+                        Fresh Meal Plan,"We", "Us", or the "Company"). We are excited to have you as a
+                        user and as a customer.
+                    </p>
+                </div>
+
+            </article>
+            <article class="card magicshadow-sm" style="margin-right: 2rem; background: var(--heaven);
+            border-radius: 4px">
+                <div>
+                    <img src="./images/coffee.jpg"alt="" style="width: 100%">
+                </div>
+                <div class="card-content" style="padding: 2rem">
+                    <div class="post-meta flex items-center justify-between" style="margin-bottom: 1rem">
+                        <span>19-02-2021</span>
+                        <div>
+                            <span>
+                                Posted By <strong>FreshMeal</strong>
+                            </span>
+                            <span>12 Comments</span>
+                        </div>
+                    </div>
+                    <h2 style="font-family: Raleway-bold;font-size: 1.3rem;margin-bottom: 1rem">Fresh Foods are now available Everyday</h2>
+                    <p style="line-height: 1.6;"> Welcome to Fresh Meal Plan, LLC (together with its affiliates,
+                        "Fresh Meal Plan", "We", "Us", or the "Company"). We are excited to have you as a
+                        user and as a customer.
+                    </p>
+                </div>
+
+            </article>
+        </div>
+    <div class="text-center" style="margin-top: 2rem">
+        <button class="btn btn-secondary">View All</button>
+        </div>
+
+    </div>
+</section>
+
+
+<section class="subscribe" style="background: var(--primary)">
+    <div class="container flex items-center">
+        <div style="flex:1">
+            <img src="./images/rasberry.png" alt="" style="width: 90%">
+        </div>
+        <div style="flex: 1">
+            <h1 style="font-family: Raleway-bold;font-size: 1.5rem;margin-bottom: 1.5rem">Subscribe to Our Newsletter</h1>
+            <p style="font-family: Raleway-medium;font-size: 1rem;margin-bottom: 1.5rem;line-height: 1.5">Learn about our sweet dishes and for daily updates, please subscriber to our news channel</p>
+            <div class="input-wrap" style="background: var(--heaven);display: flex;padding: 0.3rem;border-radius: 4px">
+                <input type="email" placeholder="email@freshmeal.com" style="width: 100%;border: none;padding: 0 1rem;
+font-size: 1rem">
+                <button style="padding: 0.8rem 2rem; border: none; background: var(--primary);color: var(--pure);
+border-radius: 4px;font-size: 1rem;cursor: pointer; transition: all .3s ease;outline: none">Subscribe</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<section class="contact-us flex" style="padding-top: 0;padding-bottom: 0">
+    <div class="contact-info-wrapper" style="padding: 4rem 0;flex:1">
+        <h1 class="section-heading">Contact Us</h1>
+        <div class="contact-info" style="display: flex;justify-content: center">
+            <div>
+                <div style="display: flex;align-items: center;margin-bottom: 2rem">
+                    <img src="./icons/phone-2.svg" alt="" style="margin-right: 1rem">
+                    <div style="display: flex;flex-direction: column">
+                        <span style="font-family: Raleway-bold;margin-bottom: 0.25rem">Call Us</span>
+                        <span>(+91) 1234567890</span>
+                    </div>
+                    </div>
+                <div style="display: flex;align-items: center;margin-bottom: 2rem" >
+                    <img src="./icons/bag-2.svg" alt="" style="margin-right: 1rem">
+                    <div style="display: flex;flex-direction: column">
+                        <span style="font-family: Raleway-bold;margin-bottom: 0.25rem">E-mail</span>
+                        <span>abc@gmail.com</span>
+                    </div>
+                </div>
+                <div style="display: flex;align-items: center;margin-bottom: 2rem">
+                    <img src="./icons/clock-2.svg" alt="" style="margin-right: 1rem">
+                    <div style="display: flex;flex-direction: column">
+                        <span style="font-family: Raleway-bold;margin-bottom: 0.25rem">Working Hours</span>
+                        <span>Mon - Sat (8.00am - 12.00am)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="map" style="flex:1;filter: grayscale(100%)">
+        <img src="./images/map.jpg" alt="" style="width: 100%;height: 100%">
+    </div>
+</section>
+
+
+
+<footer style="background: var(--footer);padding: 4rem 0">
+    <div class="container" style="display: flex;color: var(--pure)">
+        <div class="box" style="flex: 1;margin-right: 2rem;text-align: center">
+            <h3 style="border-bottom: 1px solid var(--primary); padding-bottom: 1rem;
+margin-bottom: 1rem">About us</h3>
+            <p style="line-height: 1.6;margin-bottom: 1rem">Popular food items you can buy here. we are the teams working with different cities all over the india for best food services</p>
+            <button class="btn btn-secondary"> Read More</button>
+        </div>
+        <div class="box" style="flex: 1;margin-right: 2rem;text-align: center">
+            <h3 style="border-bottom: 1px solid var(--primary); padding-bottom: 1rem;
+margin-bottom: 1rem">Quick Links</h3>
+            <ul>
+                <li style="margin-bottom: 1rem">
+                    <a href="#">Home</a>
+                </li>
+                <li style="margin-bottom: 1rem">
+                    <a href="#">About us</a>
+                </li>
+                <li style="margin-bottom: 1rem">
+                    <a href="#">Products</a>
+                </li>
+                <li style="margin-bottom: 1rem">
+                    <a href="#">Blog</a>
+                </li>
+                <li style="margin-bottom: 1rem">
+                    <a href="#">Services</a>
+                </li>
+                <li style="margin-bottom: 1rem">
+                    <a href="#">Gallery</a>
+                </li >
+                <li style="margin-bottom: 1rem">
+                    <a href="#">Contact Us</a>
+                </li>
+
+            </ul>
+        </div>
+        <div class="box" style="flex: 1;margin-right: 2rem;text-align: center">
+            <h3 style="border-bottom: 1px solid var(--primary); padding-bottom: 1rem;
+margin-bottom: 1rem">Follow us</h3>
+            <ul style="list-style-type: none">
+                <li>
+                    <a href="#" style="color: var(--pure);text-decoration: none">
+                        <img src="./icons/facebook.svg" alt="">
+                        <span>Facebook</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" style="color: var(--pure);text-decoration: none">
+                        <img src="./icons/twitter.svg" alt="">
+                        <span>Twitter</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" style="color: var(--pure);text-decoration: none">
+                        <img src="./icons/google.svg" alt="">
+                        <span>Google</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" style="color: var(--pure);text-decoration: none">
+                        <img src="./icons/instagram.svg" alt="">
+                        <span>Instagram</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="box instagram-api" style="flex: 1;margin-right: 2rem;text-align: center">
+            <h3 style="border-bottom: 1px solid var(--primary); padding-bottom: 1rem;
+margin-bottom: 1rem">Instagram</h3>
+            <div class="post-wrap" style="display:flex;justify-content: space-between">
+                <div style="width: calc(1/3 * 100% - (1- 1/3) * 10px);margin-bottom: 10px">
+                    <img src="./images/food-table.jpg" alt="" style="width: 100%;height: 100%;object-fit: cover">
+                </div>
+                <div style="width: calc(1/3 * 100% - (1- 1/3) * 10px);margin-bottom: 10px">
+                    <img src="./images/food-table.jpg" alt="" style="width: 100%;height: 100%;object-fit: cover">
+                </div>
+                <div style="width: calc(1/3 * 100% - (1- 1/3) * 10px);margin-bottom: 10px">
+                    <img src="./images/food-table.jpg" alt="" style="width: 100%;height: 100%;object-fit: cover">
+                </div>
+                <div style="width: calc(1/3 * 100% - (1- 1/3) * 10px);margin-bottom: 10px">
+                    <img src="./images/food-table.jpg" alt="" style="width: 100%;height: 100%;object-fit: cover">
+                </div>
+                <div style="width: calc(1/3 * 100% - (1- 1/3) * 10px);margin-bottom: 10px">
+                    <img src="./images/food-table.jpg" alt="" style="width: 100%;height: 100%;object-fit: cover">
+                </div>
+                <div style="width: calc(1/3 * 100% - (1- 1/3) * 10px);margin-bottom: 10px">
+                    <img src="./images/food-table.jpg" alt="" style="width: 100%;height: 100%;object-fit: cover">
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<footer class="copyright" style="padding: 1rem 0; background: var(--secondary);
+color:var(--pure); text-align: center;font-size: 0.75rem">
+    <div>
+        Copyright @2021. All right reserved by <a href="#" style="color: var(--primary);text-decoration: none"> Harsh </a>
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
